@@ -944,11 +944,15 @@ header.major p.ts {
 	font-weight: bold;
 }
 
+header.major p.ref-main {
+	margin-bottom: 0px;
+}
+
 header.major p.ref {
 	font-size: 1em;
 	font-weight: bold;
-	margin-left: 10px;
-	margin-top: 0px;
+	margin: 0px;
+	padding: 10px;
 }
 
 header.major.special {
@@ -1672,25 +1676,35 @@ body.is-preload #header.alt .logo {
 
 #toc-content {
 	display: none;
-	margin-left: 15px;
+	margin: 10px;
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 30px;
+	border: solid #0acf97 5px;
+	border-radius: 1%;
 }
 
 #toc-content p.toc-main {
-	font-size: 1em;
+	color: black;
+	font-size: 1.1em;
 	margin: 0px;
-	padding-top: 20px;
+	padding-top: 30px;
 	padding-left: 5px;
 }
 
 #toc-content p.toc-sub {
+	color: black;
 	font-size: 1em;
 	margin: 0px;
-	margin-top: 5px;
-	margin-left: 20px;
+	padding-top: 20px;
+	padding-left: 20px;
 }
 
 #toc-content p.toc-exam {
 	font-size: 1em;
+	margin: 0px;
+	padding-top: 10px;
+	padding-left: 25px;
 }
 
 #toc-toggle {
